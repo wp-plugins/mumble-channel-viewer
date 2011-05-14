@@ -3,8 +3,8 @@ Contributors: CommandChannel
 Donate link: http://sourceforge.net/donate/index.php?group_id=147372
 Tags: mumble, murmur, voip, viewer, channel
 Requires at least: 3.1.1
-Tested up to: 3.1.1
-Stable tag: 2.0.3
+Tested up to: 3.1.2
+Stable tag: 2.1.0
 
 Shows your Mumble server's channels and who's connected. It also displays status icons (i.e. if a user is muted or deafened).
 
@@ -15,6 +15,7 @@ The **Mumble Channel Viewer** will display all of the channels in your Mumble se
 This widget communicates with your Mumble server using the [Channel Viewer Protocol](http://mumble.sourceforge.net/Channel_Viewer_Protocol) (CVP). If you host your own Mumble server you can implement the CVP using [MumPI](http://mumble.sourceforge.net/Mumble_PHP_Interface). You can find a service provider that implements the CVP on [this list](http://mumble.sourceforge.net/Hosters).
 
 Requirements:
+
 * PHP >= 5.2.0
 * fopen_wrappers() must be [enabled](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
 
@@ -44,6 +45,9 @@ Not yet.
 
 == Changelog ==
 
+= 2.1.0 =
+* Added font and icon style options
+
 = 2.0.3 =
 * Added requirements and screenshots to the readme
 
@@ -58,6 +62,9 @@ Not yet.
 * Initial release (using a proprietary protocol).
 
 == Upgrade Notice ==
+
+= 2.1.0 =
+Adds a couple of cosmetic options. Should not be considered a critical update.
 
 = 2.0.2 =
 Enhances code readability, fixes some minor formatting issues with the Twenty Ten theme. Not a critical update.
