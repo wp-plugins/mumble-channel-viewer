@@ -21,5 +21,7 @@ if( !defined( 'ABSPATH') && !defined('WP_UNINSTALL_PLUGIN') )
 wp_deregister_style( "mumble-channel-viewer" );
 delete_option( 'mumble_channel_viewer_data_uri' );
 delete_option( 'mumble_channel_viewer_data_format' );
+delete_option( 'mumble_channel_viewer_icon_style' );
+delete_option( 'mumble_channel_viewer_font_color' );
 
 ?>
